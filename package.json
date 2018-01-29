@@ -1,0 +1,21 @@
+{
+  "name": "gcp-dataprep-bigquery-twitter-stream",
+  "version": "1.0.0",
+  "description": "Stream Twitter Data into BigQuery with Cloud Dataprep",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jeremy Lorino <jeremylorino@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/bigquery": "^1.0.0",
+    "@google-cloud/logging-winston": "^0.8.0",
+    "@google-cloud/pubsub": "^0.16.2",
+    "@google-cloud/storage": "^1.5.2",
+    "lodash": "^4.17.4",
+    "nconf": "^0.10.0",
+    "user-stream": "0.0.8",
+    "winston": "^2.4.0"
+  }
+}

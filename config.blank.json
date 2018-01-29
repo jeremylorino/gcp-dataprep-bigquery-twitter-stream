@@ -1,0 +1,20 @@
+{
+  "GCLOUD_PROJECT": "",
+  "GOOGLE_APPLICATION_CREDENTIALS": "serviceaccount.json",
+  "twitter": {
+    "access_token_key": "",
+    "access_token_secret": "",
+    "consumer_secret": "",
+    "consumer_key": "",
+    "sample_stream_url": "https://stream.twitter.com/1.1/statuses/sample.json",
+    "stream_url": "https://stream.twitter.com/1.1/statuses/filter.json"
+  },
+  "bigquery": {
+    "dataset": "staging",
+    "table": "twitter_stream_test"
+  },
+  "storage": {
+    "forBigQuery": true,
+    "bucketName": ""
+  }
+}
