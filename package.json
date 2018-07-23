@@ -2,6 +2,7 @@
   "name": "gcp-dataprep-bigquery-twitter-stream",
   "version": "1.0.0",
   "description": "Stream Twitter Data into BigQuery with Cloud Dataprep",
+  "repository": "https://github.com/jeremylorino/gcp-dataprep-bigquery-twitter-stream.git",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
