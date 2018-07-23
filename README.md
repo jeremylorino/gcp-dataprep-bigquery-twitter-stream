@@ -11,7 +11,7 @@ Requirements
 ---
 
 - [Twitter App](http://apps.twitter.com) created with keys/tokens
-- [Google Cloud Platform](https://cloud.google.com/) account 
+- [Google Cloud Platform](https://cloud.google.com/) account
 
 Setup & Configuration
 ---
@@ -45,7 +45,7 @@ The enclosed sample includes a simple file to stream Tweets into Google Cloud St
 
 When developing on top of the Twitter platform, you must abide by the [Developer Agreement & Policy](https://dev.twitter.com/overview/terms/agreement-and-policy).
 
-Most notably, you must respect the section entitled "Maintain the Integrity of Twitter's Products", including removing all relevant Content with regard to unfavorites, deletes and other user actions. 
+Most notably, you must respect the section entitled "Maintain the Integrity of Twitter's Products", including removing all relevant Content with regard to unfavorites, deletes and other user actions.
 
 
 The schema
@@ -84,8 +84,8 @@ Finding the most popular content shared on Twitter.
 Users that tweet the most.
 
 	SELECT user.screen_name, count(*) as count FROM [twitter.tweets] GROUP BY user.screen_name ORDER BY count DESC LIMIT 10
-	
-To learn more about querying, go to [https://cloud.google.com/bigquery/query-reference]https://cloud.google.com/bigquery/query-reference)
+
+To learn more about querying, go to [https://cloud.google.com/bigquery/query-reference](https://cloud.google.com/bigquery/query-reference)
 
 
 Going further
@@ -113,4 +113,4 @@ The following documents serve as additional information on streaming data from T
 Credits
 ---
 
-- [Twitter for BigQuery](https://github.com/twitterdev/twitter-for-bigquery)  
+- [Twitter for BigQuery](https://github.com/twitterdev/twitter-for-bigquery)
