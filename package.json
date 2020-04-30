@@ -5,7 +5,9 @@
   "repository": "https://github.com/jeremylorino/gcp-dataprep-bigquery-twitter-stream.git",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Jeremy Lorino <jeremylorino@gmail.com>",
   "license": "MIT",
@@ -17,6 +19,8 @@
     "lodash": "^4.17.4",
     "nconf": "^0.10.0",
     "user-stream": "0.0.8",
-    "winston": "^2.4.0"
-  }
+    "winston": "^2.4.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
