@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/storage > async > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/pubsub > google-gax > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/pubsub > google-auto-auth > async > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/pubsub > google-gax > grpc > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/logging-winston > @google-cloud/logging > google-gax > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/logging-winston > @google-cloud/logging > google-auto-auth > async > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/pubsub > google-gax > google-auto-auth > async > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/pubsub > @google-cloud/common > split-array-stream > async > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/logging-winston > @google-cloud/logging > @google-cloud/common-grpc > grpc > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/logging-winston > @google-cloud/logging > google-gax > grpc > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/logging-winston > @google-cloud/logging > google-gax > google-auto-auth > async > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/logging-winston > @google-cloud/logging > @google-cloud/common > split-array-stream > async > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/logging-winston > @google-cloud/logging > @google-cloud/common > google-auto-auth > async > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/logging-winston > @google-cloud/logging > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > async > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
+    - '@google-cloud/logging-winston > @google-cloud/logging > @google-cloud/common-grpc > @google-cloud/common > split-array-stream > async > lodash':
+        patched: '2020-04-30T23:06:40.701Z'
