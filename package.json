@@ -20,7 +20,7 @@
     "nconf": "^0.10.0",
     "user-stream": "0.0.8",
     "winston": "^2.4.0",
-    "snyk": "^1.316.1"
+    "snyk": "^1.667.0"
   },
   "snyk": true
 }
