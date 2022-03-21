@@ -13,9 +13,9 @@
   "license": "MIT",
   "dependencies": {
     "@google-cloud/bigquery": "^1.0.0",
-    "@google-cloud/logging-winston": "^0.10.0",
+    "@google-cloud/logging-winston": "^4.0.0",
     "@google-cloud/pubsub": "^0.17.0",
-    "@google-cloud/storage": "^3.0.0",
+    "@google-cloud/storage": "^5.0.0",
     "lodash": "^4.17.21",
     "nconf": "^0.10.0",
     "user-stream": "0.0.8",
